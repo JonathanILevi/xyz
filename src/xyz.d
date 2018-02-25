@@ -7,3 +7,6 @@ pragma(inline, true) public T y(T)(T[] vec) {
 pragma(inline, true) public T z(T)(T[] vec) {
 	return vec[2];
 }
+pragma(inline, true) public T w(T)(T[] vec) {
+	return vec[3];
+}
